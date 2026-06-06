@@ -1,18 +1,15 @@
 # Student Depression Detection using Machine Learning
 
-## 📌 Project Overview
+## Project Overview
 Mental health issues among students are increasing rapidly due to academic pressure, financial stress, unhealthy lifestyles, and social challenges. This project focuses on predicting student depression using Machine Learning classification models.
 
 The system analyzes demographic, academic, and lifestyle-related factors to identify students who may be at risk of depression, enabling early intervention and proactive mental health support.
 
----
-
-## 🎯 Objective
+## Objective
 The main objective of this project is to build and evaluate Machine Learning models capable of predicting depression among students using supervised learning techniques.
 
----
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Programming Language
 - Python
@@ -25,9 +22,7 @@ The main objective of this project is to build and evaluate Machine Learning mod
 - Scikit-Learn
 - Pickle
 
----
-
-## 📂 Dataset
+## Dataset
 Dataset Source:
 - Kaggle Student Depression Dataset
 
@@ -46,9 +41,7 @@ Dataset includes features such as:
 Target Variable:
 - Depression (0 = No, 1 = Yes)
 
----
-
-## ⚙️ Project Workflow
+## Project Workflow
 
 ### 1. Data Preprocessing
 - Handling missing values
@@ -71,11 +64,9 @@ Implemented and compared:
 - Decision Tree Classifier
 - Random Forest Classifier
 
----
+## Model Performance
 
-## 📊 Model Performance
-
-### 🏆 Best Performing Model
+### Best Performing Model
 Random Forest Classifier
 
 ### Results
@@ -89,9 +80,7 @@ Random Forest Classifier
 - False Positives (FP): 199
 - False Negatives (FN): 143
 
----
-
-## 🔍 Key Findings
+## Key Findings
 The analysis identified the following major contributors to student depression:
 - High Academic Pressure
 - Sleep Deprivation
@@ -100,9 +89,7 @@ The analysis identified the following major contributors to student depression:
 
 The study revealed that students sleeping less than 5 hours per night showed significantly higher depression risk.
 
----
-
-## 📈 Feature Importance
+## Feature Importance
 The Random Forest model identified the following as the most influential features:
 1. Academic Pressure
 2. Sleep Duration
@@ -111,7 +98,7 @@ The Random Forest model identified the following as the most influential feature
 
 ---
 
-## 🚀 Future Scope
+## Future Scope
 Future improvements for this project include:
 - Hyperparameter Optimization
 - Grid Search & Random Search
@@ -120,17 +107,13 @@ Future improvements for this project include:
 - Real-time Web Application Deployment
 - NLP-based Sentiment Analysis
 
----
-
-## 💡 Applications
+## Applications
 - Early student mental health detection
 - Educational counseling systems
 - Healthcare analytics
 - Predictive mental health monitoring
 
----
-
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 student-depression-detection/
@@ -145,19 +128,17 @@ student-depression-detection/
 
 ---
 
-## 👨‍💻 Author
+## Author
 **Mannuru Mahesh**  
 M.Tech Data Science & Analytics  
 Lovely Professional University
 
----
-
-## 🙏 Acknowledgement
+## Acknowledgement
 Special thanks to **Dr. Karan Bajaj** for continuous guidance and support throughout the project.
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 This project demonstrates how Machine Learning can effectively support mental health prediction systems by identifying at-risk students using academic, demographic, and lifestyle indicators.
 
 The Random Forest Classifier achieved the best performance and proved highly effective in predicting student depression with strong accuracy and recall.
